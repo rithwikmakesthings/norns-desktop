@@ -1,1 +1,1 @@
-/usr/bin/jackd -R -P 95 -d dummy -p 1024 
+/usr/bin/jackd -R -P 70 -t 2000 -s -d alsa -d hw:pisound -r 44100 -p 256 -n 2 -X raw
